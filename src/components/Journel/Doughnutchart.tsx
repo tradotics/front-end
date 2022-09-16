@@ -6,7 +6,7 @@ import Labels from './Labels';
 Chart.register(ArcElement, Title);
 export default function Doughnutchart() {
     // let percentage = Math.round((props.data.wins / (props.data.wins + props.data.losses)) * 100) + '%';
-    let percentage = '10%';
+    // let percentage = '10%';
     const chartData = {
         labels: ['Wins', 'Losses'],
         datasets: [

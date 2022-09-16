@@ -16,7 +16,7 @@ export default function Navbarsm() {
               <MenuIcon fontSize="large"/> </div>      
         </div>
         <div className='relative'>
-          <img src="images/logo.png" alt="image" className='h-20 w-20'/>
+          <img src="images/logo.png" alt="logo is not found" className='h-20 w-20'/>
         </div>
         <div>
           <div className="h-11 w-11 bg-btnbackground rounded flex items-center justify-center"><FilterAltIcon fontSize="large"/></div>

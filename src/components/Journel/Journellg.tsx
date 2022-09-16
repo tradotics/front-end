@@ -1,5 +1,5 @@
 import React from 'react'
-import Barchart from './Barchart'
+// import Barchart from './Barchart'
 import Doughnutchart from './Doughnutchart'
 import Feed from './Feed'
 import Pnlcard from './Pnlcard'

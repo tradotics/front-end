@@ -1,6 +1,6 @@
 import React from 'react'
 import Areachart from './Areachart'
-import Barchart from './Barchart'
+// import Barchart from './Barchart'
 
 export default function Feed() {
   return (

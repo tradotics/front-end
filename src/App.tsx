@@ -1,5 +1,5 @@
 import React from 'react';
-import Doughnutchart from './components/Journel/Doughnutchart';
+// import Doughnutchart from './components/Journel/Doughnutchart';
 import { Sidebar } from './contexts/Sidebarcontext';
 import Landingpage from './pages/Landingpage/Landingpage';
 
