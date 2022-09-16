@@ -1,12 +1,15 @@
 import React from 'react';
-import './App.css';
+import Doughnutchart from './components/Journel/Doughnutchart';
+import { Sidebar } from './contexts/Sidebarcontext';
 import Landingpage from './pages/Landingpage/Landingpage';
 
 function App() {
   return (
-    <div className="m-0 p-0 app">
-      <Landingpage/>
-    </div>
+    <Sidebar>
+      <div className="m-0 p-0">
+        <Landingpage />
+      </div>
+    </Sidebar>
   );
 }
 
