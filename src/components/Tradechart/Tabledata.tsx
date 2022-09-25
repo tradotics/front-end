@@ -3,7 +3,7 @@ import Lossbutton from './Lossbutton'
 import Winbutton from './Winbutton'
 import ViewListIcon from '@mui/icons-material/ViewList';
 
-export default function () {
+export default function Tabledata() {
   return (
     <tr className='w-full h-12 bg-rowColor rounded-lg text-sm my-2'>
       <td className='text-center'><ViewListIcon/></td>
