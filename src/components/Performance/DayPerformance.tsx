@@ -19,7 +19,7 @@ export default function DayPerformance() {
       { //blue
         barPercentage: 0.5,
         barThickness: 25,
-        data: [0, -240, 0, 0,-320,-100,0],
+        data: [0, -240, 0, 0,-320,-10,0],
         backgroundColor: 'rgb(200,56,100,0.9)',
         stack:'stack 1'
       },

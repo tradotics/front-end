@@ -27,7 +27,7 @@ export default function Doughnutchart() {
     return (
         <Fragment>
             <div className='flex flex-row
-            md:h-36 md:w-36 lg:h-40 lg:w-40 xl:h-44 xl:w-44 '>
+            md:h-36 md:w-36 lg:h-36 lg:w-36 xl:h-44 xl:w-44 '>
             <Doughnut data={chartData} options={{
                 responsive: true,
                 maintainAspectRatio: true,
@@ -42,7 +42,8 @@ export default function Doughnutchart() {
                         },
                         padding: 10,
                     }
-                }
+                },
+                
             }} />
             <Labels />
             </div>

@@ -4,25 +4,24 @@ import { Chart, BarController, BarElement, CategoryScale, Tooltip, LinearScale }
 
 Chart.register(BarController, BarElement, CategoryScale, Tooltip, LinearScale)
 export default function Barchart() {
-    const labels = ['Sun', 'Mon', 'Tues', 'Wed', 'Thu', 'Fri', 'Sat','Tues', 'Wed', 'Thu', 'Fri', 'Sat']
+    const labels = ['Sun', 'Mon', 'Tues', 'Wed', 'Thu', 'Fri', 'Sat','Tues', 'Wed', 'Thu', 'Fri', 'Sat','Wed', 'Thu', 'Fri']
     const chartData = {
         labels: labels,
         datasets: [
-            { //blue
-                barPercentage: 0.5,
-                data: [120, 180, 320, 50, 280, 80, 80, 50, 280, 80, 80],
-                barThickness:20,
-                backgroundColor: '#237F7D',
-
-            },
-            {
-                //red
-                barPercentage: 0.5,
-                barThickness:20,
-                data: [30, 120, 60, 180, 40, 180, 50, 50, 280, 80, 80],
-                backgroundColor: '#821D60',
-            }
+          { //blue
+            barPercentage: 0.8,
+            data: [50, 20, 20, 10,0,60,60,50,75,0,25,20,60,20,0],
+            backgroundColor: 'rgb(65,127,125,0.9)',
+            stack:'stack 1'
+          },
+          { //blue
+            barPercentage: 0.8,
+            data: [0, -24, 0, 0,-32,-10,-50,-20,-60,10,-25,-50,0,-30,-45],
+            backgroundColor: 'rgb(139,29,96,0.9)',
+            stack:'stack 1'
+          },
         ]
+
     };
     return (
             <div className='flex flex-col items-center justify-center h-[90%] w-[95%]'>
@@ -35,9 +34,6 @@ export default function Barchart() {
                             ticks: {
                                 stepSize: 100, //steps in the graph
                             },
-                            grid: {
-                                color: 'rgb(112,112,112,0.5)'
-                            }
                         }
                     }   
                 }} />
