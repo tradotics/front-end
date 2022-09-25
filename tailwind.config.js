@@ -17,7 +17,11 @@ module.exports = {
         cardbg:'#1C1F2D',
         success1:'#388F55',
         error1: '#9C3C3C',
-        purple:'#782EC3'
+        success2:'#409280',
+        failure2:'#924040',
+        purple:'#782EC3',
+        tableColor:'#111422',
+        rowColor:'#1F2737'
       },
       spacing: {
         12.5: '3.75rem',
@@ -47,5 +51,7 @@ module.exports = {
 
     }
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar')
+  ]
 };

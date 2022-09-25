@@ -1,32 +1,34 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { Bar } from 'react-chartjs-2'
 import { Chart, BarController, BarElement, CategoryScale, Tooltip, LinearScale } from 'chart.js'
 
 Chart.register(BarController, BarElement, CategoryScale, Tooltip, LinearScale)
 export default function Barchart() {
-    const labels = ['Sun', 'Mon', 'Tues', 'Wed', 'Thu', 'Fri', 'Sat']
+    const labels = ['Sun', 'Mon', 'Tues', 'Wed', 'Thu', 'Fri', 'Sat','Tues', 'Wed', 'Thu', 'Fri', 'Sat']
     const chartData = {
         labels: labels,
         datasets: [
             { //blue
                 barPercentage: 0.5,
-                barThickness: 25,
-                data: [120, 180, 320, 50, 280, 80, 80],
+                data: [120, 180, 320, 50, 280, 80, 80, 50, 280, 80, 80],
+                barThickness:20,
                 backgroundColor: '#237F7D',
 
             },
             {
                 //red
                 barPercentage: 0.5,
-                barThickness: 25,
-                data: [30, 120, 60, 180, 40, 180, 50],
+                barThickness:20,
+                data: [30, 120, 60, 180, 40, 180, 50, 50, 280, 80, 80],
                 backgroundColor: '#821D60',
             }
         ]
     };
     return (
-            <div className='flex flex-col items-center justify-center p-3 h-[95%] w-[95%]'>
+            <div className='flex flex-col items-center justify-center h-[90%] w-[95%]'>
                 <Bar data={chartData} options={{
+                    responsive: true,
+                    maintainAspectRatio: true,
                     scales: {
                         x: {
                             display: true,

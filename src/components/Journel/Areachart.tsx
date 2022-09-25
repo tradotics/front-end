@@ -20,6 +20,8 @@ export default function Areachart() {
     ]
   };
   const options = {
+    responsive: true,
+    maintainAspectRatio: true, 
     scales: {
       y: {
         beginAtZero: true,
@@ -34,7 +36,7 @@ export default function Areachart() {
     }
   }
   return (
-    <div className='flex flex-col items-center justify-center p-3 h-[95%] w-[95%]'>
+    <div className='flex flex-col items-center justify-center h-[90%] w-[95%]'>
       <Line data={data} options={options}></Line>
     </div>
   )

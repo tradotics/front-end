@@ -13,14 +13,12 @@ export default function Navbarlg() {
                 <span className="relative top-3">{logo}</span>
                 <span className="flex items-center font-bold text-lg">Dashboard</span>
             </div>
-            <div className="flex space-x-2">
+            <div className="flex space-x-1">
                 <Filterbutton>Symbol</Filterbutton>
                 <Filterbutton>Setup</Filterbutton>
                 <Filterbutton>Side</Filterbutton>
                 <Filterbutton>Day</Filterbutton>
                 <Filterbutton>More</Filterbutton>
-            </div>
-            <div className="flex space-x-2">
                 <div className="h-6.5 px-8 bg-gradient-to-b from-blue1 to-blue2 rounded text-xs font-bold flex items-center justify-center">
                     Selected</div>
                 <div className="h-6.5 px-8 bg-gradient-to-b from-blue1 to-blue2 rounded text-xs font-bold flex items-center justify-center">
@@ -29,8 +27,6 @@ export default function Navbarlg() {
             <div className="flex space-x-3 ">
                 <div className="h-6.5 px-8 bg-gradient-to-b from-blue1 to-blue2 rounded text-xs font-bold flex items-center justify-center">
                     01 Jan 22 - 11 Aug 22 </div>
-            </div>
-            <div className="flex space-x-3 ">
                 <div className="h-6.5 px-8 bg-quickbutton rounded text-xs font-bold flex items-center justify-evenly">
                     <span >Quick Note</span>
                     <AddCircleIcon className="ml-3" />
