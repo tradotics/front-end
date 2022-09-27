@@ -1,6 +1,6 @@
 import React from 'react'
 import Tabledata from './Tabledata'
-import HttpsIcon from '@mui/icons-material/Https';
+
 
 function Tradechart() {
   return (

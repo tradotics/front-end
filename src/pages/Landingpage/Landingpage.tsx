@@ -1,5 +1,4 @@
 import React from 'react'
-import { design } from '../../assets/Design'
 import Calender from '../../components/Calender/Calender'
 import Insights from '../../components/Insights/Insights'
 import Journellg from '../../components/Journel/Journellg'

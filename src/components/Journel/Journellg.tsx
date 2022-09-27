@@ -1,5 +1,4 @@
 import React from 'react'
-import { design } from '../../assets/Design'
 import Calender from '../Calender/Calender'
 // import Barchart from './Barchart'
 import Doughnutchart from './Doughnutchart'
