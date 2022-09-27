@@ -10,15 +10,13 @@ export default function DayPerformance() {
     labels: labels,
     datasets: [
       { //blue
-        barPercentage: 0.5,
-        barThickness: 25,
+        barPercentage: 0.9,
         data: [120, 0, 320, 100,0,0,180],
         backgroundColor: 'rgb(6,135,125,0.9)',
         stack:'stack 1'
       },
       { //blue
-        barPercentage: 0.5,
-        barThickness: 25,
+        barPercentage: 0.9,
         data: [0, -240, 0, 0,-320,-10,0],
         backgroundColor: 'rgb(200,56,100,0.9)',
         stack:'stack 1'
@@ -27,8 +25,8 @@ export default function DayPerformance() {
   };
   
   return (
-    <div className='bg-background rounded-lg p-3 pl-2 w-84 h-72'>
-      <div className='w-[95%] h-[90%]'>
+    <div className='bg-background rounded-lg p-5 pl-2 w-84 h-72'>
+      <div className='w-[95%] h-[95%]'>
         <span className='text-primary font-medium'>Performance by Day</span>
         <Bar data={chartData} options={{
           responsive: true,
@@ -38,9 +36,6 @@ export default function DayPerformance() {
             x: {
               display: true,
               stacked: true,
-              grid: {
-                color: 'rgb(112,112,112,0.5)'
-              }
             }
           }
         }} />

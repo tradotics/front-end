@@ -24,10 +24,10 @@ export default function Barchart() {
 
     };
     return (
-            <div className='flex flex-col items-center justify-center h-[90%] w-[95%]'>
+            <div className='flex flex-col items-center justify-center h-[100%] w-[100%]'>
                 <Bar data={chartData} options={{
                     responsive: true,
-                    maintainAspectRatio: true,
+                    maintainAspectRatio: false,
                     scales: {
                         x: {
                             display: true,

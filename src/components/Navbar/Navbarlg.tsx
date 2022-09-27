@@ -1,16 +1,18 @@
 import React from 'react'
-import { logo } from '../../assets/Logo'
 import AddCircleIcon from '@mui/icons-material/AddCircle';
 import Filterbutton from './Filterbutton';
 
 export default function Navbarlg() {
     return (
+        <React.Fragment>
         <div className="fixed top-0 left-0 w-full h-12.5 bg-background 
         flex flex-row items-center justify-between
         text-primary p-5 z-50
         xs:hidden sm:hidden md:hidden lg:flex xl:flex">
             <div className="flex justify-around">
-                <span className="relative top-3">{logo}</span>
+                <span className="relative top-3 z-1">
+                    <img src="images/logo.png" alt="logo is not found" className='h-22 w-23 relative z-50'/>
+                </span>
                 <span className="flex items-center font-bold text-lg">Dashboard</span>
             </div>
             <div className="flex space-x-1">
@@ -32,7 +34,7 @@ export default function Navbarlg() {
                     <AddCircleIcon className="ml-3" />
                 </div>
             </div>
-
         </div>
+        </React.Fragment>
     )
 }

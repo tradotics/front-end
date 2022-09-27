@@ -21,7 +21,7 @@ export default function Areachart() {
   };
   const options = {
     responsive: true,
-    maintainAspectRatio: true, 
+    maintainAspectRatio: false, 
     scales: {
       y: {
         beginAtZero: true,
@@ -29,14 +29,11 @@ export default function Areachart() {
           stepSize: 100,
           tickColor: '#FFF',
         },
-        grid: {
-          color: 'rgb(112,112,112,0.5)'
-        }
       }
     }
   }
   return (
-    <div className='flex flex-col items-center justify-center h-[90%] w-[95%]'>
+    <div className='flex flex-col items-center justify-center h-[100%] w-[100%]'>
       <Line data={data} options={options}></Line>
     </div>
   )

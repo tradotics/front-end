@@ -1,5 +1,6 @@
 import React from 'react'
 import Doughnutchart from './Doughnutchart'
+import Feed from './Feed'
 import Pnlcard from './Pnlcard'
 import Scorecard from './Scorecard'
 
@@ -20,7 +21,9 @@ export default function Journelmd() {
           <div className="row-span-1 col-span-5 bg-background rounded-md p-2 flex items-center">
             <Pnlcard/>
           </div>
-          <div className="row-span-4 col-span-5 bg-background rounded-md p-2 flex items-center">05</div>
+          <div className="row-span-4 col-span-5 bg-background rounded-md p-2 flex items-center">
+            <Feed/> 
+          </div>
       </div>
   )
 }
