@@ -25,7 +25,7 @@ export default function DayPerformance() {
   };
   
   return (
-    <div className='bg-background rounded-lg p-5 pl-2 w-84 h-72'>
+    <div className='bg-background rounded-3xl p-5 pl-2 w-84 h-72'>
       <div className='w-[95%] h-[95%]'>
         <span className='text-primary font-medium'>Performance by Day</span>
         <Bar data={chartData} options={{

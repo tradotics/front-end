@@ -26,7 +26,7 @@ export default function Doughnutchart() {
     }
     return (
         <Fragment>
-            <div className='flex flex-row
+            <div className=' relative flex flex-row
             h-[100%] w-[60%]'>
             <Doughnut data={chartData} options={{
                 responsive: true,
@@ -44,9 +44,12 @@ export default function Doughnutchart() {
                     }
                 },
                 
+                
             }} />
+
             <Labels />
+            <div className='absolute top-[50%] left-[40%]'><span className='text-success2 text-2xl font-bold'>50%</span></div>
             </div>
         </Fragment>
-    )
+    )   
 }

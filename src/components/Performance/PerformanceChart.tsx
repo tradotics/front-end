@@ -9,7 +9,7 @@ export default function PerformanceChart() {
             <SpeedIcon sx={{ fontSize: 40  }} className="text-primary" />
             <h3 className='text-lg font-bold text-primary p-1'>Insights</h3>
         </div>
-        <div className='grid grid-cols-3 grid-row-1 gap-2'>
+        <div className='grid grid-cols-3 grid-row-1 gap-3'>
         <DayPerformance/>
         <DayPerformance/>
         <DayPerformance/>

@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       colors: {
         background: 'rgba(25,27,41,0.95)',
-        background50:'rgba(25,27,41,0.4)',
+        background50:'rgba(25,27,41,0.5)',
         primary:'#BDBDBD',
         secondary:'#95A5A6',
         blue1:'#30617D',
@@ -22,7 +22,9 @@ module.exports = {
         failure2:'#924040',
         purple:'#782EC3',
         tableColor:'#111422',
-        rowColor:'#1F2737'
+        rowColor:'#1F2737',
+        journalTable0:'#343642',
+        journalTable1:'#272936'
       },
       spacing: {
         12.5: '3.75rem',

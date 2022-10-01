@@ -8,6 +8,8 @@ import Scorecard from './Scorecard'
 
 export default function Journellg() {
   return (
+
+    <React.Fragment>
       <div className="w-full xl:h-[500px] lg:h-[400px] grid-rows-5 grid-cols-12
       grid-flow-col md:gap-x-3 md:gap-y-3 lg:gap-x-3 lg:gap-y-3 pt-8
       xs:hidden sm:hidden md:hidden lg:grid xl:grid">
@@ -31,5 +33,6 @@ export default function Journellg() {
             <Calender/>
           </div>
       </div>
+        </React.Fragment>
   )
 }

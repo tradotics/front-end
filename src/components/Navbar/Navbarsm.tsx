@@ -8,7 +8,7 @@ export default function Navbarsm() {
   return (
     <div className="fixed top-0 left-0 w-full h-12.5 px-3 bg-background 
         flex-row items-center justify-between 
-        text-primary 
+        text-primary z-50
         xs:flex sm:flex md:flex lg:hidden xl:hidden">
         <div>
             <div className="h-11 w-11 bg-btnbackground rounded flex items-center justify-center"
