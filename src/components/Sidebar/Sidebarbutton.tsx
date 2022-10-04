@@ -9,7 +9,7 @@ export default function Sidebarbutton(props : any) {
       </div>
       {
         showMenu &&
-      <div className='flex flex-col items-right justify-center p-3 bg-background '>
+      <div className='flex flex-col items-right justify-center p-3 bg-background'>
         <span><h6 className='text-md text-white'>{props.title}</h6></span>
         <span><p className='text-sm text-primary'>{props.subtitle}</p></span>
       </div>

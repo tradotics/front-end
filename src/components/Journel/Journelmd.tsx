@@ -6,7 +6,7 @@ import Scorecard from './Scorecard'
 
 export default function Journelmd() {
   return (
-      <div className="w-full h-[500px] grid-rows-5 grid-cols-7 
+      <div className="w-full h-[32rem] grid-rows-5 grid-cols-7 
       grid-flow-col gap-x-2 gap-y-2 pt-8
       xs:hidden sm:hidden md:grid lg:hidden xl:hidden 2xl:hidden">
           <div className="row-span-1 col-span-2 bg-background rounded-md p-3 px-5 flex items-center">

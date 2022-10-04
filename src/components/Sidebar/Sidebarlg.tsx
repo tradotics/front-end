@@ -11,7 +11,7 @@ export default function Sidebarlg() {
   return (
     <Fragment>
     <div className="w-12.5 h-[calc(100vh-60px)] pt-4 grid bg-background content-between
-    xs:hidden sm:hidden md:hidden lg:grid xl:grid fixed left-0 top-12.5">
+    xs:hidden sm:hidden md:hidden lg:grid xl:grid fixed left-0 top-12.5 z-40">
       <div>
         <Sidebarbutton title='Dashboard' subtitle='Overview of your trades'>
           <HomeSharpIcon sx={{ fontSize: 45, opacity: 0.5 }} className='text-primary' /></Sidebarbutton>

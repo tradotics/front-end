@@ -37,8 +37,8 @@ function Tradechart() {
           <Tabledata />
           <Tabledata />
           <Tabledata />
-        </table>
-            <div className="w-full flex justify-center pb-3 sticky z-50"><span className="text-sm text-primary font-semibold">Showing 10 results</span></div>
+          </table>
+          <div className="w-full flex justify-center pb-3 sticky z-50"><span className="text-sm text-primary font-semibold">Showing 10 results</span></div>
     </div>
   )
 }

@@ -9,9 +9,9 @@ function App() {
   return (
     <Sidebar>
       <div className="m-0 p-0">
-        {/* <Landingpage /> */}
+        <Landingpage />
         {/* <Journelpage/> */}
-        <Tradespage/>
+        {/* <Tradespage/> */}
       </div>
     </Sidebar>
   );
